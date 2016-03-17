@@ -43,6 +43,9 @@ a:hover {
 }
 
 /* Profile image */
+.profile-image {
+  margin-top: 25px;
+}
 .profile-image, .section-image {
 /*  margin: auto;*/
   padding: 25px;
@@ -85,4 +88,10 @@ a:hover {
   margin: 20px;
   padding: 20px 0;
   border-top: 1px solid grey;
+}
+.footer a {
+  color: #585890;
+}
+.footer a:hover {
+  color: #7878e0;
 }

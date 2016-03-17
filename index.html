@@ -8,11 +8,11 @@
 </head>
 <body>
   <header>
-    <h1>Zack Klinger</h1>
+    <h1 id="top">Zack Klinger</h1>
     <nav class="main-nav">
       <div class="nav-link"><a href="#">HOME</a></div>
-      <div class="nav-link"><a href="#">PORTFOLIO</a></div>
-      <div class="nav-link"><a href="#">CONTACT</a></div>
+      <div class="nav-link"><a href="#portfolio">PORTFOLIO</a></div>
+      <div class="nav-link"><a href="#contact">CONTACT</a></div>
     </nav>
     <div>
       <img src="images/responsive-layout-profile.png" class="profile-image">
@@ -23,7 +23,7 @@
       </p>
     </div>
   </header>
-  <div class="main-content">
+  <div class="main-content" id="portfolio">
     <h1 class="portfolio-heading">PORTFOLIO</h1>
     <div class="container">
       <div class="section">
@@ -75,7 +75,7 @@
       </div>
     </div>
   </div>
-  <div class="contact">
+  <div class="contact" id="contact">
     <h2>CONTACT</h2>
     <p>
       If you're interested in chatting or want more information about what I've been working on,
@@ -94,7 +94,7 @@
   </div> 
   <footer class="footer">
     <h2>Zack Klinger</h2>
-    <h2>BACK TO TOP</h2>
+    <h2><a href="#top">BACK TO TOP</a></h2>
   </footer>
 </body>
 </html>
