@@ -116,6 +116,7 @@ a:hover {
   .header-content p {
     flex: 2;
     order: -1;
+    text-align: left;
   }
   .header-content img {
     margin: 0;
@@ -138,7 +139,8 @@ a:hover {
     padding: 0 2em;
   }
   .contact p {
-    padding: 0 5em;
+    width: 70%;
+    align-self: center;
   }
   .footer {
     display: flex;
@@ -155,6 +157,16 @@ a:hover {
   }
   .footer-nav-small {
     display: none;
+  }
+  .nav-link {
+    background-color: #b8b8ee;
+    font-size: 1.2em;
+  }
+  .nav-link a {
+    color: #585890;
+  }
+  .nav-link a:hover {
+    color: #7878e0;
   }
   
 }
