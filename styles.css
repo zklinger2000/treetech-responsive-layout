@@ -91,6 +91,12 @@ a:hover {
 .footer a:hover {
   color: #7878e0;
 }
+.footer-nav-medium {
+  display: none;
+}
+.footer-nav-small {
+  display: inline-flex;
+}
 
 /* Medium Sizes */
 @media screen and (min-width: 769px) {
@@ -130,6 +136,25 @@ a:hover {
   }
   .section p {
     padding: 0 2em;
+  }
+  .contact p {
+    padding: 0 5em;
+  }
+  .footer {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer h2 {
+    padding: 0 1em;
+  }
+  .profile-name {
+    margin-right: auto;
+  }
+  .footer-nav-medium {
+    display: inline-flex;
+  }
+  .footer-nav-small {
+    display: none;
   }
   
 }
