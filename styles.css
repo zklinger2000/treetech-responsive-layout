@@ -59,10 +59,6 @@ a:hover {
 .portfolio-heading {
   margin: 0 0 40px
 }
-
-.container {
-/*  flex-wrap: wrap;*/
-}
 .contact {
   margin: 40px;
 }
@@ -94,4 +90,46 @@ a:hover {
 }
 .footer a:hover {
   color: #7878e0;
+}
+
+/* Medium Sizes */
+@media screen and (min-width: 769px) {
+ 
+  .main-nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .nav-link {
+    flex: 0;
+    padding: 0 20px;
+  }
+  .header-content {
+    display: flex;
+    margin: 20px 0;
+  }
+  .header-content p {
+    flex: 2;
+    order: -1;
+  }
+  .header-content img {
+    margin: 0;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 20px;
+  }
+  .section {
+    width: 50%;
+    margin: 20px 0;
+  }
+  .section img {
+    padding: 0 10px;
+  }
+  .section p {
+    padding: 0 2em;
+  }
+  
 }
