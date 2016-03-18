@@ -101,9 +101,14 @@ a:hover {
 /* Medium Sizes */
 @media screen and (min-width: 769px) {
  
-  .main-nav {
+  .header {
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+  }
+  .nav-brand {
+    width: 100%;
   }
   .nav-link {
     flex: 0;
@@ -169,4 +174,53 @@ a:hover {
     color: #7878e0;
   }
   
+}
+
+/* Medium Sizes */
+@media screen and (min-width: 1025px) {
+ 
+  .portfolio-heading {
+    font-size: 1.6em;
+  }
+  .header-content {
+    margin: 1em 60px;
+  }
+  .main-content {
+    padding: 80px 1em 10px;
+    margin: 0 40px;
+  }
+  .section {
+    width: 33%;
+    margin: 20px 0;
+  }
+  .section h2 {
+    font-size: 1.2em;
+  }
+  .section p {
+    padding: 0;
+    font-size: 1em;
+  }  
+  .contact p {
+    width: 50%;
+    font-size: 1.3em;
+  }
+  .header {
+    padding: 0 60px;
+  }
+  .header h1 {
+    flex: 1;
+    text-align: left;
+    margin-left: 20px;
+    align-self: left;
+  }
+  .nav-link {
+    flex: 0;
+    padding: 0;
+    margin-right: 0 0 20px;
+    align-self: center;
+  }
+  .footer a {
+    font-size: .8em;
+  }
+
 }
