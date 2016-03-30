@@ -11,6 +11,7 @@ img {
   max-width: 100%;
 }
 body {
+  background-color: #B4A8D2;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -18,12 +19,44 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Francois One', sans-serif;
 }
-p {
-  margin-top: 0;
+p, li {
+  font-size: 1.2em;
+  margin: 0 1em;
   font-family: 'Didact Gothic', sans-serif;
 }
 a {
   text-decoration: none;
+}
+a:hover {
+  color: #723E8E;
+}
+.nav-header, a, .contact h2, footer {
+  color: #5B4492;
+}
+.header-content, .contact {
+  color: #2E1863;
+}
+.portfolio {
+  color: #38373A;
+  background-color: #F8F7FA;
+}
+.skills {
+  color: #38373A;
+  background-color: #E0AB26;
+  margin: 0;
+  padding: 0;
+}
+.skills ul li {
+  display: inline;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul {
+  padding: 0;
+}
+.footer-nav-medium {
+  display: none;
 }
 
 /*=========
@@ -34,6 +67,17 @@ header, nav {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+.skills, ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills h2 {
+  color: #382800;
+  width: 100vw;
+}
+.skills ul li {
+  flex: 1 0 45vw;
 }
 footer {
   display: flex;
@@ -49,6 +93,12 @@ footer h3 {
 
 @media screen and (min-width: 768px) {
 
+  .footer-nav-small {
+    display: none;
+  }
+  .footer-nav-medium {
+    display: inline-flex;
+  }
 
 /*=========
   Flexbox
