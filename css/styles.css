@@ -78,7 +78,6 @@ a:hover {
   list-style: none;
 }
 ul {
-/*  text-align: center;*/
   padding: 0;
   margin: 0;
 }
@@ -89,7 +88,6 @@ ul {
 .contact-info {
   font-size: 1.1em;
   font-weight: bold;
-  
 }
 footer {
   margin: 15px;
@@ -153,9 +151,7 @@ footer h3 {
   }
   .profile-image {
     padding: 0 30px 0 0;
-/*    margin: 0;*/
     width:100%;
-/*    height: auto;*/
   }
   .header-content {
     padding: 35px 15px;
@@ -209,7 +205,6 @@ footer h3 {
     order: -1;
   }
   .portfolio {
-/*    text-align: center;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -218,11 +213,9 @@ footer h3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-/*    text-align: center;*/
   }
   .section {
     max-width: 45vw;
-/*    align-self: flex-start*/
     flex: 1 1 40vm;
   }
   .skills ul li {
@@ -236,7 +229,10 @@ footer h3 {
 
 @media screen and (min-width: 1024px) {
 
-
+  .portfolio {
+    margin: 20px;
+  }
+  
 /*=========
   Flexbox
 =========*/
@@ -248,8 +244,46 @@ footer h3 {
   nav h1, .nav-link {
     align-self: center;
   }
+  .nav-link h3 {
+    padding-right: 40px;
+    margin: 0;
+  }
+  .nav-brand {
+    padding-left: 40px;
+    border-radius: 2px;
+  }
+  .header-content p {
+    margin: 0;
+    padding-right: 75px;
+  }
   .section {
-    max-width: 33vw;
+    max-width: 30vw;
+  }
+  .skills {
+    margin: 20px 25vw;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  .header-content p {
+    font-size: 2.1em;
+  }
+  p, li {
+    font-size: 1.6em;
+  }
+  .contact-info, .contact-title {
+    font-size: 1.5em;
   }
   
 }
