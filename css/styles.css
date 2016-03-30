@@ -30,7 +30,18 @@ a {
   Flexbox
 =========*/
 
-
+header, nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer h3 {
+  margin-right: auto;
+}
 
 /*===============
   Media Queries
@@ -38,10 +49,39 @@ a {
 
 @media screen and (min-width: 768px) {
 
+
+/*=========
+  Flexbox
+=========*/
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+  nav h1 {
+    width: 100vw;
+  }
+  .header-content {
+    display: flex;
+  }
+  .header-content p {
+    order: -1;
+  }
   
 }
 
 @media screen and (min-width: 1024px) {
 
+
+/*=========
+  Flexbox
+=========*/
+
+  nav h1 {
+    width: auto;
+    margin-right: auto;
+  }
+  nav h1, .nav-link {
+    align-self: center;
+  }
   
 }
