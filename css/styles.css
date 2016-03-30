@@ -66,6 +66,14 @@ footer h3 {
   .header-content p {
     order: -1;
   }
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .section {
+    max-width: 50vw;
+  }
   
 }
 
@@ -82,6 +90,9 @@ footer h3 {
   }
   nav h1, .nav-link {
     align-self: center;
+  }
+  .section {
+    max-width: 33vw;
   }
   
 }
