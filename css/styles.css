@@ -3,8 +3,6 @@
 ============*/
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 img {
@@ -216,7 +214,6 @@ footer h3 {
   }
   .section {
     max-width: 45vw;
-    flex: 1 1 40vm;
   }
   .skills ul li {
     flex: 1 0 220px;
